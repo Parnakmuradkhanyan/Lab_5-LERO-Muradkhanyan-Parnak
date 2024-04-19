@@ -1,0 +1,265 @@
+/*Header*/
+
+header{
+    background: url(../img/Header-bgrnd.svg) no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background: url(../img/navbar-pattern.svg), white;
+    padding: 20px;
+}
+
+.website-logo-navbar{
+    width: 66px;
+    height: auto;
+    transition: all 0.2s ease;
+}
+
+.website-logo-navbar:hover{
+    width: 70px;
+    height: auto;
+}
+
+.menu-text{
+    width: 150px;
+    color: black;
+    font-family: 'Playfair Display';
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    transition: all 0.2s ease;
+}
+
+.menu-text:hover{
+    color: #7291FF;
+    font-size: 22px;
+}
+
+.menu-text:active{
+    filter: brightness(90%);
+}
+
+.reserve-table-button{
+    background: rgb(208,233,255);
+    background: linear-gradient(0deg, rgba(208,233,255,1) 0%, rgba(154,180,205,1) 100%);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 0px 4px 15px rgba(43, 105, 197, 0.15);
+    transition: all 0.2s ease;
+}
+
+.reserve-table-button:hover{
+    color: white;
+    filter: brightness(90%);
+}
+
+.reserve-table-button:active{
+    filter: brightness(80%);
+}
+
+.adv-title{
+    font-family: 'Playfair Display';
+    font-size: 64px;
+    font-weight: 800;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 87px;
+    margin-bottom: 300px;
+}
+
+/*About us section*/
+.about-us-section{
+    background: #F0F8FF;
+}
+
+.text-about-us{
+    font-weight: 500;
+}
+
+/*Our Dishes Section*/
+.our-dishes-section{
+    padding-bottom: 147px;
+}
+
+.food-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.img-dish{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    width: 243px;
+    height: auto;
+    justify-content: center;
+}
+.price-container{
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+    justify-content: center;
+}
+.food-name{
+    color: black;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    font-size: 20px;
+}
+.price{
+    color: black;
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 20px;
+}
+
+/*Entertainment Section*/
+
+.entertainment-section{
+    background: url(../img/entertainment-img.svg) no-repeat;
+    background-size: cover;
+    padding-bottom: 180px;
+}
+
+.entertainment-title{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*Visit Us Section*/
+
+.visit-us-section{
+    background: url(../img/visit-us-img.svg) no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 180px;
+}
+
+.restaurant-map{
+    width: 100%;
+    height: 425px;
+    border: 0px solid transparent;
+    border-radius: 12px;
+}
+
+.title-visit-us, .title-working-hours{
+    margin-bottom: 26px;
+}
+
+.text-visit-us{
+    margin-bottom: 51px;
+}
+
+/*Footer*/
+
+.footer{
+    background: rgb(5,40,73);
+    background: url(../img/footer-pattern.svg) no-repeat, linear-gradient(90deg, rgba(5,40,73,1) 0%, rgba(12,97,175,1) 100%);
+    background-size: cover;
+    padding: 36px 0px 36px 20px;
+}
+
+.decor-circles{
+    background: url(../img/footer-decor-circle.svg);
+}
+
+.name-email{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0px;
+}
+
+.tel-container, .email-container{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.bold-name{
+    color: white;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.tel-num-link, .eml-link{
+    color: white;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.tel-num-link:hover, .eml-link:hover{
+    color: white;
+    filter: brightness(90%);
+}
+
+.tel-num-link:active, .eml-link:active{
+    color: white;
+    filter: brightness(80%);
+}
+
+.social-media-links{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.social-medias-links li{
+    transition: all 0.2s ease;
+}
+
+.circle-div{
+    position: relative;
+    width: 34px;
+    height: 34px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.img-icon{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease;
+}
+
+.social-medias-links li:hover, .circle-div:hover, .img-icon:hover{
+    filter: brightness(80%);
+}
+
+.social-medias-links li:active, .circle-div:active, .img-icon:active{
+    filter: brightness(60%);
+}
+
+.footer-logo{
+    margin-bottom: 15px;
+}
+
+.text-sm-center{
+    text-align: center;
+}
+
+.mt-sm-5{
+    margin-top: 30px;
+}
